@@ -1,0 +1,282 @@
+cv:
+  name: Andrew Revak
+  location: 31385 Brae Burn Ave., Hayward, CA 94544
+  email: andy.revak@gmail.com
+  phone: tel:+1-510-688-3211
+  social_networks:
+    - network: LinkedIn
+      username: andrewrevak
+  sections:
+    summary:
+      - >
+        Engineering leader with 18+ years of experience in server engineering, full-stack development, and platform architecture. Proven ability to lead teams, build scalable cloud infrastructures, and drive complex projects across blockchain, gaming, and web platforms. Passionate about high-performance systems, reliability, and test-driven methodologies.
+    skills:
+      - label: Languages
+        details: Elixir, Typescript, Node.js, Javascript, Python, C#, PHP, Java, Perl
+      - label: Cloud
+        details: AWS (EKS, ECS, ECR)
+      - label: Databases
+        details: Postgres, MySQL, MongoDB
+      - label: Operating Systems
+        details: Ubuntu, CentOS, OSX
+      - label: DevOps & Infrastructure
+        details: Jenkins, Ansible, Terraform, GitHub Actions, Puppet, EKS
+      - label: CI/CD & Build Systems
+        details: Jenkins, GitHub Actions, OTA content bundling, Nginx proxy
+      - label: Frameworks & Tools
+        details: PlayFab, OpenTelemetry, Gearman, ExtJS, React, Selenium, Mechanize, YUI
+      - label: Software Development Practices
+        details: Test-driven development, Pair programming, Agile methodologies
+    experience:
+      - company: Laguna Games
+        position: Lead Server Engineer
+        location: San Francisco, CA
+        start_date: 2020-03
+        end_date: 2024-09
+        highlights:
+          - |+
+            Led the effort to implement a distributed NFT minting system for CryptoUnicorns using Elixir and Javascript, enabling dynamic on-demand NFT creation through gameplay while managing blockchain transaction constraints.
+
+            **Skills**: Elixir, Javascript, Web3, Solidity
+          - |+
+            Led development of LGCore, a reusable game platform in Elixir that included core systems for example:
+            - Randomized loot reward distribution system
+            - Integration with ERC-1155 contracts
+            - Player progression and achievement tracking
+            - Player base creation and management
+
+            **Skills**: Elixir, Smart Contracts, Game Systems Architecture
+          - |+
+            NodeJS/Typescript, Developed a secure blockchain oracle (Watcher) with NodeJS/TypeScript, ensuring web3-to-web2 workflows with focus on asset integrity.
+
+            **Skills**: NodeJS, TypeScript, Postgres
+          - |+
+            Developed an ETL framework using Typescript, Ethers, Postgres and GraphQL to reliably move all assets for specific contracts from Polygon PoS chain to Arbitrum (L2) and Xai (L3)
+
+            **Skills**: TypeScript, Solidity, Postgres, Ethers.js, GraphQL
+          - |+
+            Led a project to integrate OpenTelemetry across our Web3 Oracle and Elixir game backend services, implementing:
+            - Distributed tracing for cross-service request flows
+            - Real-time monitoring of system behavior under live player load
+            - Error tracing for failed requests
+
+            **Skills**: OpenTelemetry, Elixir, TypeScript, Distributed Systems Monitoring
+          - |+
+            Led and contributed a project to deploy EKS and a 3rd party deployment (XAI DAC Server) in 48 hours with another DevOps engineer.
+
+            **Skills**: AWS EKS, Kubernetes, Terraform
+          - |+
+            Served as release lead for the server team, successfully delivering our portion of 31 CryptoUnicorns releases (4 major, 16 minor, 11 hotfixes) through:
+            - Maintaining and executing server team deployment runbooks and processes
+            - Coordinating with client and blockchain teams to ensure feature compatibility
+            - Managing server-side feature flags and deployment configurations
+            - Participating in cross-team release planning to align deliverables
+
+            **Skills**: Release Management, Elixir, Deployment Architecture, Cross-team Coordination
+          - |+
+            Authored and reviewed technical design documents for game features.  This was a standard part of our handoff process between product management/game design and the engineering teams.
+
+            **Skills**: Technical Documentation
+          - |+
+            Built and maintained GitHub Actions CI/CD pipelines for three interconnected projects:
+            - LGCore: Elixir package library serving as core dependency
+            - CryptoUnicorns: Main Elixir game server consuming LGCore
+            - Web3 Watcher: Independent TypeScript microservice with GitOps-based ECS deployment
+
+            **Skills**: GitHub Actions, Elixir, TypeScript, AWS ECS, GitOps
+          - |+
+            Led critical incident response and resolution for blockchain-integrated game systems:
+            - Identified and patched a game server vulnerability during active exploitation that affected GameBank interactions, leading rapid triage and deployment of fixes in Elixir
+            - Diagnosed and resolved NFT minting service disruptions through analysis of game server logs, blockchain nodes, and microservice interactions
+
+            **Skills**: Elixir, Web3 Integration, Incident Response, Distributed Systems, TypeScript
+      - company: Fogbank Entertainment
+        position: Senior Software Engineer
+        location: San Francisco, CA
+        start_date: 2018-01
+        end_date: 2020-03
+        highlights:
+          - |+
+            As one of two backend engineers, architected and maintained the content delivery pipeline for a narrative-driven game:
+            - Built automated systems to package artist-created assets and scenes into deployable episode content
+            - Created content bundling processes for OTA (Over-the-Air) updates
+            - Managed build and deployment workflows for episodic content releases
+
+            **Skills**: Jenkins, Kotlin, Perforce
+          - |+
+            Developed testing and deployment infrastructure for PlayFab-based game services:
+            - Prototyped unit testing framework for PlayFab cloud code
+            - Managed development environment configurations
+
+            **Skills**: PlayFab, Javascript
+          - |+
+            Contributed improvements to the game's branching dialog tool:
+            - Implemented UI/UX improvements for content creators
+            - Fixed bugs in the state management system
+            - Enhanced tool usability for production writers
+
+            **Skills**: Javascript, UI Development, Bug Resolution
+          - |+
+            Built development infrastructure:
+            - Deployed and managed cluster of Mac build servers using Ansible
+            - Created tools for content migration between development and production environments
+            - Implemented administrative interfaces for content management
+
+            **Skills**: Ansible, React, Javascript, DevOps
+      - company: Self-Employed
+        position: Independent Consultant
+        location: Foster City, CA
+        start_date: 2017-12
+        end_date: 2017-12
+        highlights:
+          - |+
+            I landed a contract role as part of a team to document the systems I had ownership over during my tenure at Gazillion to prepare the assets for liquidation.  This included putting together a presentation on the materials for the buyers during due diligence.
+            
+            **Skills**: Technical Documentation, Technical Communication
+      - company: Gazillion Entertainment
+        position: Lead Platform Developer
+        location: Foster City, CA
+        start_date: 2014-01
+        end_date: 2017-11
+        highlights:
+          - |+
+            Built catalog integration system for Marvel Heroes PlayStation launch:
+            - Product catalog management system
+            - Tooling for managing entitlements available in the in game store.
+
+            **Skills**: PHP, MongoDB
+          - |+
+            Built and maintained a backend administrative system for managing:
+            - Customer record management and support tools
+            - Order processing and tracking
+            - In-game live operations event configuration
+            - Integration with Magento e-commerce platform
+
+            **Skills**: PHP, HTML, CSS, Javascript, Magento, MongoDB, MySQL
+          - |+
+            Integrated 3rd party payment systems like XSolla into our E-Commerce suite.
+
+            **Skills**: PHP, HTML, CSS, Javascript, Magento
+          - |+
+            Worked with Ops to help deploy infrastructure via Puppet.
+
+            **Skills**: Puppet, CentOS
+      - company: Polyvore
+        position: Software Engineer
+        location: Mountain View, CA
+        start_date: 2012-12
+        end_date: 2013-10
+        highlights:
+          - |+
+            Updated the profile page UI and implemented automated unit tests with Selenium.
+
+            **Skills**: HTML, CSS, Javascript, Selenium
+          - |+
+            Implemented A/B testing for upselling registration, leading to a 15% increase in registrations per visitor.
+
+            **Skills**: Perl, HTML, CSS, Javascript
+          - |+
+            Built dashboards to track user registration sources and engagement metrics.
+
+            **Skills**: Perl, HTML, CSS, Javascript
+          - |+
+            Worked on a mail system to email users about their produts and look boards.
+
+            **Skills**: Perl, HTML, CSS, Javascript, RabbitMQ
+      - company: Huddler.com
+        position: Senior Software Engineer
+        location: San Francisco, CA
+        start_date: 2011-10
+        end_date: 2012-11
+        highlights:
+          - |+
+            Implemented YUI Lazy Loading to improve page load performance.
+
+            **Skills**: YUI, Javascript, HTML, CSS, Ruby, Postgres
+          - |+
+            Developed the gallery uploader and image embed functionality for image galleries project.
+
+            **Skills**: ImageMagick, Ruby, HTML, CSS, JS
+      - company: Tiny Prints, Inc.
+        position: Web Application Developer
+        location: Mountain View, CA
+        start_date: 2008-05
+        end_date: 2010-11
+        highlights:
+          - |+
+            Worked with desiners and product managers to deliver updated envelope workflows for Wedding Paper Divas.
+
+            **Skills**: HTML, CSS, Javascript, PHP
+          - |+
+            Integrated third-party APIs like PicasaWeb, Flickr, Facebook, and SmugMug for image import for the personalization service.
+
+            **Skills**: API Integration, PHP, HTML, CSS, Javascript
+          - |+
+            Worked with merchandising to improve workflow for enabling products and used ImageMagick for on-the-fly previews.
+
+            **Skills**: ImageMagick, Javascript
+      - company: Montalvo Systems
+        position: Verification Engineer
+        location: Santa Clara, CA
+        start_date: 2007-07
+        end_date: 2008-03
+        highlights:
+          - |+
+            Built and maintained a code coverage viewer to assist the device verifaction team.
+
+            **Skills**: ExtJS, Python, HTML, CSS, Javascript
+      - company: Aerio Inc
+        position: Software Engineer
+        location: Fremont, CA
+        start_date: 2006-04
+        end_date: 2007-07
+        highlights:
+          - |+
+            Built a document management system for a client.
+
+            **Skills**: PHP, HTML, JS, CSS, MySQL
+      - company: Chabot College Office of Institutional Research & Grants
+        position: Professional Specialist
+        location: Hayward, CA
+        start_date: 2001-02
+        end_date: 2006-04
+        highlights:
+          - |+
+            Retrieved data used for reports and presentations to acquire new grants for the college.
+
+            **Skills**: Oracle 6i, SQL
+      - company: Forward Minds
+        position: Software Engineer
+        location: San Francisco, CA
+        start_date: 2005-06
+        end_date: 2006-01
+        highlights:
+          - |+
+            Helped develop features for a CMS system.
+
+            **Skills**: PHP, HTML, CSS, Javascript
+      - company: PMC-Sierra
+        position: Intern
+        location: Santa Clara, CA
+        start_date: 2004-07
+        end_date: 2004-09
+        highlights:
+          - |+
+            Assisted in the development of tools within the Computer Aided Design group using Perl and C++.
+
+            **Skills**: Perl, C++
+    education:
+      - institution: CSU East Bay
+        area: Computer Science
+        degree: BS
+        start_date: 2000-09
+        end_date: 2004-05
+    awards:
+      - Photography Exhibitor at Alameda County Fair (Adult Fine Arts)
+    hobbies:
+      - Landscape Photography
+      - Night Photography
+      - Astro Photography
+      - Typography
+    philanthropy:
+      - House Rabbit Society - Fostering and Donations
