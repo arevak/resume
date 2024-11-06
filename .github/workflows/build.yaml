@@ -45,7 +45,6 @@ jobs:
         draft: false
         prerelease: false
         make_latest: true
-        body_path: ${{ github.workspace }}/CHANGELOG.md  # Optional: if you have a changelog
         generate_release_notes: true
         token: ${{ secrets.GITHUB_TOKEN }}
         fail_on_unmatched_files: true
